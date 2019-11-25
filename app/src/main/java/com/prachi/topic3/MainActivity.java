@@ -26,8 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        btnSave=findViewById(R.id.btnSave);
         tvResult=findViewById(R.id.tvResult);
         etName=findViewById(R.id.etName);
 
@@ -52,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         );
         spinCountry.setAdapter(adapter);
 
+
+        btnSave=findViewById(R.id.btnSave);
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

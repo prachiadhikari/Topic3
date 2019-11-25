@@ -11,20 +11,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
+        android:layout_margin="10sp"
         android:hint="Enter name"
         android:id="@+id/etName"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select country"
+        android:layout_margin="10sp"
+        android:textSize="30sp"/>
 
     <Spinner
         android:id="@+id/spinCountry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10sp"
         android:textSize="30sp" />
 
     <AutoCompleteTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter batch"
+        android:layout_margin="10sp"
         android:textSize="30sp"
         android:id="@+id/autoCompleteTextView"/>
 
@@ -33,11 +42,16 @@
         android:layout_height="wrap_content"
         android:text="Save"
         android:id="@+id/btnSave"
-        android:gravity="center"/>
+        android:textSize="30sp"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:background="#D6DBDF"
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
+        android:layout_margin="10sp"
         android:hint="detail"
         android:id="@+id/tvResult"/>
 
